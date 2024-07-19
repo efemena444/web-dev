@@ -1,0 +1,38 @@
+body{
+   box-sizing: border-box; 
+   margin: 0;
+   padding: 0;
+}
+nav{
+display: flex;
+justify-content: space-between;
+background-color: burlywood;
+}
+ 
+.logo {
+    /*margin-left:70px; */
+    margin:40px 30px 40px
+}
+.logo img{
+    width: 150px;
+    height: 72.35px;
+}    
+.nav-list{
+    margin: 40px 30px 40px;
+}
+.nav-list ul{
+display: flex;
+list-style: none;
+}
+.nav-list ul li{
+    margin: auto 10px;
+}
+.apply{
+    width: 70px;
+    height: 40px;
+    background-color: green;
+    padding: 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: antiquewhite;
+} 
